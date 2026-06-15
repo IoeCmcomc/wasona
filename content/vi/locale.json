@@ -1,0 +1,24 @@
+{
+  "Index": "Trang chủ",
+  "Next": "Sau",
+  "Previous": "Trước",
+  "Translation": "Bản dịch",
+
+  "Consonants": "Phụ âm",
+  "Labial": "Môi",
+  "Coronal": "Lưỡi trước",
+  "Dorsal": "Lưng lưỡi",
+
+  "Vowels": "Nguyên âm",
+  "Front": "Trước",
+  "Central": "Giữa",
+  "Back": "Sau",
+
+  "translate": "Dịch câu sau",
+  "translate_word": "Từ nào dưới đây có nghĩa là...",
+  "check": "kiểm tra",
+  "continue": "tiếp tục",
+  "incorrect": "❌ Chưa chính xác. Đáp án đúng: ",
+  "correct": "✅ Chính xác! Làm tốt lắm!",
+  "done": "🎉 Đã hoàn thành tất cả bài tập!"
+}
