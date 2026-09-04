@@ -2,6 +2,8 @@
 import "selo-components/common.css"; // has to be above site-specific css
 
 import PageNav from "@/components/PageNav.astro";
+import SessionRestore from "@/components/capacitor/SessionRestore.astro";
+import AndroidNav from "@/components/capacitor/AndroidNav.astro";
 import "@/global.css";
 import { getLang, posts, prevnexts } from "@/lib/content";
 import { render } from "astro:content";
@@ -25,18 +27,10 @@ const prevnext = post.filePath!.includes("index.md")
   title={post.data.title}
   description={post.data.description}
   dir={["he", "ar"].includes(lang) ? "rtl" : "ltr"}
+  lang={["jp"].includes(lang) ? lang : "en"}
 >
-  <!-- Noto Sans Hebrew -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@100..900&display=swap"
-    rel="stylesheet"
-    slot="head"
-  />
-  <!-- Noto Sans Arabic -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap"
-    rel="stylesheet"
-  />
+  <SessionRestore slot="head"></SessionRestore>
   <PageNav prevnext={prevnext} current={post.id} slot="pagenav" />
   <Content />
 </Layout>
+<AndroidNav></AndroidNav>

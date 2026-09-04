@@ -1,5 +1,11 @@
 # build output
 dist/
+
+# kalama audio: fetched at build time by scripts/fetch-kalama.mjs, never
+# committed (kept in a separate repo to keep binary blobs out of history)
+/public/kalama/
+/.cache/
+
 # generated types
 .astro/
 
@@ -12,7 +18,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-
 # environment variables
 .env
 .env.production
@@ -20,5 +25,7 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
-# jetbrains setting folder
+# local apps
 .idea/
+.obsidian/
+agents/

@@ -1,4 +1,6 @@
 {
+  "lang_name": "português",
+
   "Index": "Índice",
   "Next": "Próximo",
   "Previous": "Anterior",
@@ -15,6 +17,7 @@
   "Back": "Posterior",
 
   "translate": "Traduza a frase",
+  "translate_word": "Qual desses significa...",
   "check": "verificar",
   "continue": "continuar",
   "incorrect": "❌ Não exatamente. Resposta correta:",

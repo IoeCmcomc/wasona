@@ -8,7 +8,7 @@ const { id } = Astro.props;
 const onclick = (option: string) =>
   `document.getElementById("tabbed-${id}").className = "tabbed-${option}";`;
 
-const _ = (text: string) => locales[Astro.url.pathname.split("/")[1]][text];
+const _ = (text: string) => locales[Astro.currentLocale!][text];
 ---
 
 <style>
@@ -49,11 +49,6 @@ const _ = (text: string) => locales[Astro.url.pathname.split("/")[1]][text];
   }
   button:not(.active):hover {
     background-color: var(--bg-2);
-  }
-</style>
-<style is:global>
-  tabbed-box *:nth-child(even) {
-    background-color: var(#400);
   }
 </style>
 <div id={`tabbed-${id}`} class="tabbed-sp">
