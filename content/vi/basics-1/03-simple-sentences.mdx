@@ -1,43 +1,43 @@
 ---
 slug: "vi/03"
-title: "lesson 3: simple sentences"
-description: "Learn li, e, soweli, waso, pipi, kasi, moku, lukin, sona!"
+title: "bài 3: câu đơn giản"
+description: "Học li, e, soweli, waso, pipi, kasi, moku, lukin, sona!"
 practice:
-- title: "1. Vocab"
+- title: "1. Từ vựng"
   tasks:
-  - l1: "bird"
+  - l1: "chim"
     l2: "waso"
     junkChips: ["soweli", "pipi", "kasi"]
-  - l1: "land animal"
+  - l1: "động vật trên cạn"
     l2: "soweli"
     junkChips: ["waso", "pipi", "kasi"]
-  - l1: "bug"
+  - l1: "bọ"
     l2: "pipi"
     junkChips: ["soweli", "waso", "kasi"]
-  - l1: "plant"
+  - l1: "thực vật"
     l2: "kasi"
     junkChips: ["soweli", "pipi", "waso"]
-  - l1: "to eat"
+  - l1: "ăn"
     l2: "moku"
     junkChips: ["kasi", "lukin", "sona"]
-  - l1: "to see"
+  - l1: "thấy"
     l2: "lukin"
     junkChips: ["waso", "moku", "sona"]
-  - l1: "to know"
+  - l1: "biết"
     l2: "sona"
     junkChips: ["pipi", "moku", "lukin"]
-- title: "2. Revise"
+- title: "2. Ôn tập"
   tasks:
-  - l1: "The animal knows the bug."
+  - l1: "Con động vật biết con bọ."
     l2: "soweli li sona e pipi."
     junkChips: ["waso"]
-  - l1: "The bug eats plants."
+  - l1: "Con bọ ăn thực vật."
     l2: "pipi li moku e kasi."
     junkChips: ["soweli"]
-  - l1: "The bird sees plants."
+  - l1: "Con chim thấy thực vật."
     l2: "waso li lukin e kasi."
     junkChips: ["moku"]
-  - l1: "The bird knows the animal."
+  - l1: "Con chim biết con động vật."
     l2: "waso li sona e soweli."
     junkChips: ["pipi"]
 ---
@@ -47,21 +47,21 @@ import List from "@/components/List.astro";
 import Word from "@/components/Word.astro";
 import Practice from "@/components/Practice.astro";
 
-Now that you know how to read Toki Pona, it's time to learn words and sentences! Here are some words for things:
+Giờ bạn đã biết cách đọc tiếng Toki Pona, đến lúc học các từ và câu rồi! Sau đây là một vài từ ngữ về sự vật:
 
 <List>
-  <Word sl="soweli" m="land animal, like a cat, dog, cow, mouse, elephant" />
-  <Word sl="waso" m="bird, like a pigeon, goose, owl" />
-  <Word sl="pipi" m="insect, like a beetle, ant, butterfly, spider" />
-  <Word sl="kasi" m="plant, like a clover, birch tree, cactus, moss" />
+  <Word sl="soweli" m="động vật trên cạn, chẳng hạn như mèo, chó, bò chuột, voi" />
+  <Word sl="waso" m="chim, chẳng hạn như bồ câu, ngỗng, cú" />
+  <Word sl="pipi" m="côn trùng, chẳng hạn như bọ cánh cứng, kiến, bướm, nhện" />
+  <Word sl="kasi" m="thực vật, chẳng hạn như cỏ ba lá, cây bạch dương, xương rồng, rêu" />
 </List>
 
-And here are some words for actions:
+Và dưới đây là một vài từ ngữ chỉ hành động:
 
 <List>
-  <Word sl="moku" m="to consume" />
-  <Word sl="lukin" m="to see" />
-  <Word sl="sona" m="to know" />
+  <Word sl="moku" m="ăn uống" />
+  <Word sl="lukin" m="thấy" />
+  <Word sl="sona" m="biết" />
 </List>
 
 {/* A note for translators */}
@@ -70,7 +70,7 @@ And here are some words for actions:
   it's better to use everyday words rather than scientific ones.
 */}
 
-A very common kind of sentence is called a "subject-verb-object" sentence. This means that one thing (the subject) does something to another thing (the object). Let's make a few sentences:
+Có một kiểu câu rất phổ biến gọi là câu "chủ ngữ - động từ - tân ngữ". Nghĩa là một thứ gì đó (chủ ngữ) làm gì đó đến thứ gì khác (tân ngữ). Hãy làm vài câu ví dụ:
 
 {/* A note for translators */}
 {/*
@@ -79,19 +79,19 @@ A very common kind of sentence is called a "subject-verb-object" sentence. This 
 */}
 
 <List>
-  <Sentence sl="soweli li moku e kasi." m="The animal eats plants." />
-  <Sentence sl="waso li moku e pipi." m="The bird eats bugs." />
-  <Sentence sl="pipi li lukin e soweli." m="The insect sees an animal." />
-  <Sentence sl="waso li sona e kasi." m="The bird knows the tree." />
+  <Sentence sl="soweli li moku e kasi." m="Con động vật ăn thực vật." />
+  <Sentence sl="waso li moku e pipi." m="Con chim ăn bọ." />
+  <Sentence sl="pipi li lukin e soweli." m="Con côn trùng thấy con động vật." />
+  <Sentence sl="waso li sona e kasi." m="Con chim biết cái cây." />
 </List>
 
-Here's what we can learn:
+Chúng ta có thể rút ra được như sau:
 
-- The word order is the same as in English: subject, verb, object.
-- **󱤧 li** is a particle that starts the verb.
-- **󱤉 e** is a particle that starts the object.
+- Trật tự từ giống như trong tiếng Việt: chủ ngữ, động từ, tân ngữ.
+- **󱤧 li** là hư từ để bắt đầu phần động từ.
+- **󱤉 e** là tư từ để bắt đầu phần tân ngữ.
 
-The English translation includes words and word-pieces like "the", "an", "-s", but those are guesses! The Toki Pona sentence doesn't specify if we're talking about "_a_ bird" or "_the_ bird". In longer conversations, it becomes pretty clear!
+Bản dịch tiếng Việt sẽ có những từ như "con", "cái", "chiếc", nhưng những từ này không có trong tiếng Toki Pona. Tiếng Toki Pona không có các loại từ đứng trước danh từ để phân loại danh từ như trong tiếng Việt, nên các từ này chỉ là để bản dịch được tự nhiên mà thôi.
 
 {/* A note for translators */}
 {/*
@@ -99,6 +99,6 @@ The English translation includes words and word-pieces like "the", "an", "-s", b
   You can adjust the bullet point above to better suit your language.
 */}
 
-(**󱤧 li** and **󱤉 e** may seem unnecessary at first. We will learn about why they are required, but to do that, we first need to learn more about parts of speech!)
+(Ban đầu **󱤧 li** và **󱤉 e** không cần thiết lắm. Chúng ta sẽ được học tại sao lại cần những từ này, nhưng trước đó, ta cần phải học thêm về các từ loại đã!)
 
 <Practice exercises={frontmatter.practice} />
